@@ -1,4 +1,6 @@
 import React from "react";
+//importe le composant "Link" de la bibliothèque "react-router-dom", 
+//qui sera utilisé pour créer un lien hypertexte.
 import { Link } from "react-router-dom";
 import Header from "../../components/header/header";
 import "./Error.css";

@@ -3,7 +3,6 @@ import './footer.css'
 import logoFooter from '../../assets/logoFooter.svg'
 
 
-
 export default function Footer() {
   return (
     <div className='footer-container'>

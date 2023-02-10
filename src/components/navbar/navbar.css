@@ -30,8 +30,11 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 768px) {
   nav li {
     font-size: 12px;
+  }
+  nav ul {
+    text-transform: uppercase;
   }
 }/*# sourceMappingURL=navbar.css.map */

@@ -18,12 +18,14 @@ export default function Logement() {
 
     setItem(foundItem);
   }, []);
+
   // rediriger si l'élément trouvé n'est pas défini
+  
   if (!item) {
     return <Error />;
   }
 
-  const listeEquipements = item.equipments.map((e) => <li key={e}>{e}</li>);
+  const listeEquipements = item.equipments.map((equipement) => <li key={equipement}>{equipement}</li>);
   return (
     <>
       <Header />
@@ -36,15 +38,15 @@ export default function Logement() {
           </div>
           <div className="tags">
             <ul>
-              {item.tags.map((t) => (
-                <li key={t}>{t}</li>
+              {item.tags.map((tag) => (
+                <li key={tag}>{tag}</li>
               ))}
             </ul>
           </div>
         </div>
 
         <div className="bloc-right">
-          <div className="NbRating" >
+          <div className="NbRating">
             <StarsColored  rating={item.rating} />
           </div>
 

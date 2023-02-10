@@ -11,28 +11,33 @@
   display: flex;
   height: 450px;
   border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .vectorNext {
   display: flex;
+  flex-direction: column;
   height: 30px;
   width: 60px;
   position: absolute;
   rotate: 90deg;
   cursor: pointer;
   top: 50%;
-  right: -200px;
+  right: -1px;
   padding: 0 0;
 }
 
 .vectorPrev {
+  display: flex;
+  flex-direction: column;
   height: 30px;
   width: 60px;
   position: absolute;
   rotate: -90deg;
   cursor: pointer;
   top: 50%;
-  left: -200px;
+  left: -1px;
   padding: 0 0;
 }
 
@@ -42,6 +47,4 @@
   position: absolute;
   left: 50%;
   bottom: 20px;
-}
-
-/* @media screen and (max-width: 699px) *//*# sourceMappingURL=caroussel.css.map */
+}/*# sourceMappingURL=caroussel.css.map */

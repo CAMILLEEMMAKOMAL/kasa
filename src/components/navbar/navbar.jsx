@@ -1,4 +1,7 @@
 import React from "react";
+// importe le composant "NavLink" de la bibliothèque 
+//"react-router-dom". Ce composant permet de créer des liens hypertextes 
+//pour naviguer entre les différentes pages de l'application.
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
@@ -13,7 +16,8 @@ export default function Navbar() {
             <NavLink
               to="/"
               className={({ isActive }) => (isActive ? "activated" : "link")}
-           end >
+                end 
+                >
               Accueil
             </NavLink>
           </li>
@@ -22,7 +26,7 @@ export default function Navbar() {
               className={({ isActive }) => (isActive ? "activated" : "link")}
               to="/about"
               end
-            >
+              >
               A propos
             </NavLink>
           </li>

@@ -4,11 +4,12 @@
   align-items: center;
   background-color: #ff6060;
   margin: 0 auto;
-  margin-bottom: 30px;
-  max-width: 900px;
+  margin-bottom: 20px;
+  max-width: 1023px;
   color: #f6f6f6;
-  border-radius: 10px;
-  padding: 10px 20px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  height: 47px;
 }
 
 button {
@@ -19,9 +20,9 @@ button {
 }
 
 .vector {
-  height: 30px;
+  height: 20px;
   width: 30px;
-  rotate: 180deg;
+  transform: rotate(360deg);
   cursor: pointer;
 }
 
@@ -30,24 +31,28 @@ button {
 }
 
 h1 {
+  display: flex;
   color: white;
-  -webkit-margin-after: 10px;
-          margin-block-end: 10px;
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.containertexte {
+  padding-bottom: 30px;
+  margin-top: -20px;
 }
 
 .texte {
-  height: -webkit-max-content;
+  display: flex;
   height: -moz-max-content;
   height: max-content;
   background-color: #f6f6f6;
   font-size: 1.3em;
-  padding: 10px 20px;
+  padding: 20px 20px;
   position: relative;
-  top: -20px;
-  max-width: 900px;
+  max-width: 1023px;
   margin: 0 auto;
   color: #FF6060;
+  font-weight: 400;
+  padding-top: 25px;
 }/*# sourceMappingURL=collapse.css.map */

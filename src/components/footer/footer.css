@@ -7,15 +7,20 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 15px;
-  margin-top: 100px;
+  margin-top: 370px;
+  height: 209px;
 }
 
 .footer-container img {
   width: 100px;
+  margin-top: 50px;
 }
 
 .footer-container p {
   color: white;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Montserrat";
 }
 
 span {
@@ -25,4 +30,14 @@ span {
   color: white;
   margin-right: 5px;
   border: 1px solid white;
+}
+
+@media screen and (max-width: 993px) {
+  .footer-container {
+    margin-top: 250px;
+  }
+  .footer-container p {
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -1,9 +1,11 @@
+// importe le composant React pour pouvoir utiliser React dans ce fichier.
 import React from "react";
 import "../Home/Home.css";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import imgHome from "../../assets/ImgHome.jpg";
 import cardItems from "../../assets/logements";
+//  importe le composant Link de react-router-dom pour permettre la navigation entre les pages.
 import { Link } from "react-router-dom";
 
 export default function Home() {

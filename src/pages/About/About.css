@@ -1,21 +1,23 @@
 body{
-    margin: 0;
-    margin: 0 50px;
+    margin: auto;
+  
 }
 
 
 .cover img{
-   border-radius: 25px;
-   height: 230px;
-  filter:brightness(70%);
+    border-radius: 25px;
+    height: 230px;
+    filter:brightness(70%);
+    max-width: 1200px;
    
 }
 .desktop{
+    
     display: block;
 }
 
 
-@media screen and (max-width: 699px){
+@media screen and (max-width: 768px){
     
     body{
         margin: 0 10px;
