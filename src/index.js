@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import App from './Routes/App';
+import App from './routes/App';
 
 // Pour rendre un élément React, passez d'abord l'élément DOM à ReactDOM.createRoot(), puis passez l'élément React à root.render() :
 const root = ReactDOM.createRoot(document.getElementById('root'));
