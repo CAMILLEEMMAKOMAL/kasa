@@ -24,7 +24,7 @@ export default function Collapse(props) {
   // renvoie le rendu du composant, qui comprend un div pour 
   //le titre avec un onClick pour appeler la fonction inputCollapse
   return (
-    <div class="collapse-box">
+    <div className="collapse-box">
       <div className="collapse-block" onClick={inputCollapse}>
         <h1 id="title">{props.title}</h1>
         <button>
@@ -36,7 +36,7 @@ export default function Collapse(props) {
           />
         </button>
       </div>
-      <div class="containertexte">
+      <div className="containertexte">
           <div 
             className={`texte ${isActive}`}
             key={props.id}
